@@ -9,6 +9,16 @@
     display: flex
     align-items: center
     justify-content: center
+@mixin bg
+    background-position: center
+    background-repeat: no-repeat
+    display: inline-block
+@mixin bgi-settings($width, $height, $left, $top)
+    width: $width
+    height: $height
+    left: $left
+    top: $top
+    position: absolute
 html
     box-sizing: border-box 
 *, *:before, *:after
@@ -24,7 +34,7 @@ body
     @include flex-jc
     flex-direction: column
 .wrapper, main, header, footer, .Group155 
-    width: 100%
+    width: 1920px
 
 @import "./LayoutStyle/header.sass";
 @import "./LayoutStyle/footer.sass";

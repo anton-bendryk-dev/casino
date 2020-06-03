@@ -4,8 +4,11 @@ import '../style/App.sass';
 
 function App() {
   return (
-    <div className="App">
-        
+    <div className="wrapper">
+        <header></header>
+        <section className="Group155"></section>
+        <main></main>
+        <footer></footer>
     </div>
   );
 }

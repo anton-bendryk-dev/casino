@@ -1,14 +1,18 @@
 import React from 'react';
+import Header from './header/header';
+import Main from './main/main';
+import Footer from './footer/footer';
+import SGroup155 from './sectionGroup155/SGroup155';
 
 import '../style/App.sass';
 
 function App() {
   return (
     <div className="wrapper">
-        <header></header>
-        <section className="Group155"></section>
-        <main></main>
-        <footer></footer>
+        <Header/>
+        <SGroup155/>
+        <Main/>
+        <Footer/>
     </div>
   );
 }

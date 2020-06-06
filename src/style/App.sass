@@ -1,4 +1,5 @@
 @import "./reset/reset.css";
+@import "./fonts/font.css"
 @mixin flex-jc
     display: flex
     justify-content: center
@@ -13,24 +14,36 @@
     background-position: center
     background-repeat: no-repeat
     display: inline-block
-@mixin bgi-settings($width, $height, $left, $top)
+@mixin item-settings($width, $height, $left, $top)
     width: $width
     height: $height
     left: $left
     top: $top
-    position: absolute
+    position: relative
+@mixin text-settings($fstyle, $fweight, $fsize, $line-height, $letspace)
+    font-style: $fstyle
+    font-weight: $fweight
+    font-size: $fsize
+    line-height: $line-height
+    font-family: Noto Sans Arabic
+    letter-spacing: $letspace
+@mixin form-input-box
+    color: white
+    background: #09223F
+    border: 2px solid #366799
+    box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.15), 0px 15px 12px rgba(0, 0, 0, 0.11)
+    border-radius: 8px
 html
     box-sizing: border-box 
 *, *:before, *:after
     box-sizing: inherit
 body 
-    font-family: 'Noto Sans Arabic'
-    overflow-x: hidden
+    // overflow-x: hidden
     font-style: normal
 .wrapper 
     width: 100%
+    margin: 0
     min-height: 500px
-    margin: auto
     @include flex-jc
     flex-direction: column
 .wrapper, main, header, footer, .Group155 

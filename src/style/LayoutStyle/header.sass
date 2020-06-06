@@ -12,28 +12,166 @@ header
 .Group154Right
     width: 13%
 .f3
-    @include bgi-settings(183.84px, 104.09px, 144.99px, 57.16px)
+    @include item-settings(183.84px, 104.09px, 144.99px, 60.16px)
     background-image: url(../../images/f3.png)
     @include bg
-    transform: rotate(0.61deg)
+    transform: rotate(-0.39deg)
+    position: absolute
 .f1_2
-    @include bgi-settings(224px, 416px, 130px, 188px)
+    @include item-settings(224px, 416px, 130px, 188px)
     background-image: url(../../images/f1_2.png)
     @include bg
+    position: absolute
 .f2_2
-    @include bgi-settings(74px, 79px, 115px, 389px)
+    @include item-settings(74px, 79px, 115px, 389px)
     background-image: url(../../images/f2_2.png)
     @include bg
+    position: absolute
 .f1_2_1
-    @include bgi-settings(148px, 416px, 166px, 199px)
+    @include item-settings(148px, 416px, 166px, 199px)
+    position: absolute
+.f2
+    @include item-settings(205px, 450px, -50px, 130px)
+    background-image: url(../../images/f2.png)
+    @include bg
 .leftGirl
-    @include bgi-settings(350px, 644px, 315px, 22px)
+    @include item-settings(350px, 644px, -7px, 22px)
     background-image: url(../../images/girl_left1.png)
     @include bg
 .rightGirl
-    @include bgi-settings(402px, 633px, 1289px, 33px)
+    @include item-settings(402px, 633px, 16px, 33px)
     background-image: url(../../images/girl_right1.png)
     @include bg
 .header-content-container
-    width: 40%
+    width: 624px
     height: 100%
+.logo-container
+    width: 100%
+    height: 216px
+    @include flex
+.form-container
+    width: 100%
+    height: 450px
+.logo
+    @include item-settings(240px, 80px, -12px, -4px)
+    background-image: url(../../images/Sport-bet-logo.png)
+    @include bg
+.form-container
+    @include flex-jc
+form 
+    @include item-settings(402px, 376px, -13px, -4px)
+.login-input
+    @include form-input-box
+.login
+    height: 85px
+.login input
+    @include item-settings(384px, 64px, 8px, 3px)
+    text-align: right
+    color: #FFFFFF
+    padding-right: 15px
+.login-text
+    color: #FFFFFF
+    @include text-settings(normal, normal, 19px, 28px, 0.444444px)
+    @include item-settings(160px, 20px, 262px, -42px)
+    display: inline-block
+.login:hover
+    .login-text
+        display: none
+        top: 30px
+.underLoginTextp
+    @include flex
+.underLoginText 
+    color: white
+    text-align: center
+    @include text-settings(normal, normal, 20px, 40px, -0.2px)
+    position: relative
+    top: 4px
+.number-container
+    width: 100%
+    height: 64px
+    margin-top: 23px
+    padding-left: 7px
+    padding-right: 7px
+    display: flex
+.number
+    @include flex-ac
+    @include form-input-box
+    width: 57%
+    height: 64px
+    padding-left: 27px
+.number-input
+    border: none
+    border-bottom: 1px solid white
+    background: #09223F
+    width: 40px
+    height: 30px
+    color: white
+.number input:first-child
+    width: 57px
+.number span
+    margin-right: 5px
+    margin-left: 3px
+    position: relative
+    top: -4px
+.Rectangle
+    @include form-input-box
+    @include flex-ac
+    justify-content: space-around
+    width: 157px
+    height: 64px
+    margin-left: 9px
+.Vector
+    background-image: url(../../images/Vector.png)
+    @include bg
+    @include item-settings(12px, 8px, 6px, 0px)
+.Vector-num
+    @include item-settings(57px, 28px, -2px, -2px)
+    @include text-settings(normal, 500, 24px, 28px, -0.2px)
+.Vector-flag
+    background-image: url(../../images/arab-flag.png)
+    @include bg
+    @include item-settings(32px, 32px, -6px, 0px)
+.container18
+    @include flex
+    width: 100%
+    height: 50px
+.plus18
+    text-align: right
+    color: white
+    @include text-settings(normal, normal, 14px, 16px, -0.1px)
+    @include item-settings(346px, 16px, -8px, -2px)
+.checkbox 
+	position: absolute
+	z-index: -1
+	opacity: 0
+.checkbox + label 
+	position: relative
+	cursor: pointer
+.checkbox + label:before 
+	content: ''
+	position: absolute
+	top: -10px
+	left: 4px
+	width: 1em
+	height: 1em
+	border-radius: 4px
+	background: #FFC800
+	transition: .2s
+.checkbox:checked + label:before 
+	background-image: url(../../images/ic_check.png)
+    @include bg
+.SendButtonBox
+    @include item-settings(100%, 88px, 0px, 0px)
+    margin-top: 29px
+.SendButton
+    width: 100%
+    height: 80px
+    background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25)
+    border-radius: 50px
+.SendButtonText
+    display: inline-block
+    color: white
+    @include text-settings(normal, bold, 36px, 76px, 1.0px)
+    text-transform: uppercase
+    @include item-settings(240px, 76px, 0px, -5px)

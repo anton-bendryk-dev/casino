@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Noto Sans Arabic Bold";
+    src: url("../fonts/NotoSansArabic-Bold.ttf") format("truetype");
+    font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+    font-family: "Noto Sans Arabic";
+    src: url("../fonts/NotoSansArabic-Medium.ttf") format("truetype");
+    font-style: normal;
+	font-weight: normal;
+}

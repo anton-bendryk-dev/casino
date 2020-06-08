@@ -3,7 +3,17 @@ import React from 'react';
 const Main = () => {
     return (
         <div>
-            <main></main>
+            <main>
+                <div className='left-main'>
+                    <div className=''></div>
+                    <div className=''></div>
+                </div>
+                <div className=''></div>
+                <div className='right-main'>
+                    <div className=''></div>
+                    <div className=''></div>
+                </div>
+            </main>
         </div>
     )
 }

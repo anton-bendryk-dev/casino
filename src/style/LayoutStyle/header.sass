@@ -2,7 +2,6 @@ header
     min-height: 666px
     background-image: url(../../images/bg.png)
     @include bg
-    background-size: contain
     display: flex
 .inline-header
     width: 70%
@@ -85,18 +84,19 @@ form
     text-align: center
     @include text-settings(normal, normal, 20px, 40px, -0.2px)
     position: relative
-    top: 4px
+    top: 6px
+    left: 2px
 .number-container
     width: 100%
     height: 64px
     margin-top: 23px
-    padding-left: 7px
-    padding-right: 7px
+    padding-left: 8px
+    padding-right: 9px
     display: flex
 .number
     @include flex-ac
     @include form-input-box
-    width: 57%
+    width: 222px
     height: 64px
     padding-left: 27px
 .number-input
@@ -125,7 +125,7 @@ form
     @include bg
     @include item-settings(12px, 8px, 6px, 0px)
 .Vector-num
-    @include item-settings(57px, 28px, -2px, -2px)
+    @include item-settings(57px, 28px, -2px, 0px)
     @include text-settings(normal, 500, 24px, 28px, -0.2px)
 .Vector-flag
     background-image: url(../../images/arab-flag.png)

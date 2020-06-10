@@ -4,3 +4,75 @@ main
     @include bg
     position: relative
     top: -11px
+    display: flex
+.inline-main
+    width: 32%
+    @include flex-ac
+    flex-direction: column
+    margin-top: 42px
+.left-main
+    width: 34%
+.right-main
+    width: 34%
+.f3_2
+    background-image: url(../../images/f3_2.png)
+    @include bg
+    @include item-settings(332px, 231px, 260px, -104px)
+.f3_3
+    background-image: url(../../images/f3_3.png)
+    @include bg
+    @include item-settings(306px, 477px, 59px, 51px)
+.f4
+    background-image: url(../../images/f4.png)
+    @include bg
+    @include item-settings(426px, 207px, -96px, 62px)
+.f4_2
+    background-image: url(../../images/f4_2.png)
+    @include bg
+    @include item-settings(715px, 262px, -116px, 56px)
+.inline-main p 
+    text-align: center
+    color: white
+    @include text-settings(normal, bold, 40px, 84px, 0.3px)
+    @include item-settings(100%, 92px, 0px, 0px)
+.inline-main p > span
+    color: #FFDC25
+.bot-arr
+    @include item-settings(86px, 48px, 0px, 0px)
+    background-image: url(../../images/bot_arr1.png)
+    @include bg
+    margin-top: 19px
+.pattern-container
+    margin-top: -1px
+    width: 100%
+    height: 182px
+    position: relative
+.block 
+    @include clip-text("../images/pattern_021.png", #3E93E8)
+    -webkit-text-stroke: 2.8px  #FFFFFF
+    position: relative
+    top: -182px
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap')
+.block-text
+    @include text-settings(normal, 800, 140px, 182px, 0px)
+    font-family: 'Sarabun', sans-serif
+    color: #3E93E8
+    text-align: center
+    text-shadow: 0px -11.2px -14px rgba(0, 0, 0, 0.75)
+    display: inline-block
+    width: 100%
+.block-text1
+    @include text-settings(normal, 800, 140px, 182px, 0px)
+    font-family: 'Sarabun', sans-serif
+    color: #3E93E8
+    display: inline-block
+    opacity: 0.6
+    text-align: center
+    width: 100%
+.base
+    position: relative
+    left: -5px
+    margin-top: 34px
+    width: 400px 
+
+

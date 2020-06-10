@@ -1,5 +1,5 @@
 @import "./reset/reset.css";
-@import "./fonts/font.css"
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
 @mixin flex-jc
     display: flex
     justify-content: center
@@ -26,13 +26,22 @@
     font-size: $fsize
     line-height: $line-height
     letter-spacing: $letspace
-    font-family: 'Noto Sans Arabic'
+    font-family: 'Noto Sans', sans-serif
 @mixin form-input-box
     color: white
     background: #09223F
     border: 2px solid #366799
     box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.15), 0px 15px 12px rgba(0, 0, 0, 0.11)
     border-radius: 8px
+@mixin clip-text($img-url, $fallback-color)
+    color: $fallback-color
+    -webkit-text-fill-color: transparent
+    background: -webkit-linear-gradient(transparent, transparent)
+    background: -o-linear-gradient(transparent, transparent)
+    background: url($img-url) repeat
+    -webkit-background-clip: text
+    -moz-background-clip: text
+    background-clip: text
 html
     box-sizing: border-box 
 *, *:before, *:after

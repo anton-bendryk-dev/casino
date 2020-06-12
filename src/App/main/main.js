@@ -19,7 +19,7 @@ const Main = () => {
                             <span className="block-text">100 USD</span>
                         </div>
                     </div>
-                    <div className='SendButtonBox base'>
+                    <div className='SendButtonBox base-btn'>
                         <button className='SendButton'><bdo className='SendButtonText'>التسجيل</bdo></button>
                     </div>
                 </div>

@@ -18,14 +18,18 @@
     padding-top: 21px
 .pattern p
     text-align: center
-    width: 100%
     height: 48px
     color: white
 .Frame-text
     @include text-settings(normal, bold, 28px, 59px, 0px)
+    font-family: "Noto Sans Arabic Bold", sans-serif
+    width: 100%
 .Frame-text bdo 
     display: inline-block
     width: 60%
+    position: relative
+    top: 3px
+    left: 0px
 .Frame-img
     width: 127px
     height: 80px
@@ -34,9 +38,17 @@
     @include bg
 .Frame-text-bottom bdo
     @include text-settings(normal, bold, 14px, 20px, 0.1px)
-    width: 118px
     display: inline-block
     text-align: center
+    position: relative
+.F158
+    @include item-settings(118px, 40px, 0px, 2px)
+.F159
+    @include item-settings(80px, 40px, 0px, 2px)
+.F160
+    @include item-settings(60px, 40px, 0px, 2px)
+.F161
+    @include item-settings(100px, 40px, 0px, 2px)
 .diamond
     background-image: url(../../images/ic_diamond.png)
 .cup

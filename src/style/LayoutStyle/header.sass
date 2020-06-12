@@ -71,7 +71,7 @@ form
 .login-text
     color: #FFFFFF
     @include text-settings(normal, normal, 19px, 28px, 0.444444px)
-    @include item-settings(160px, 20px, 262px, -43px)
+    @include item-settings(160px, 20px, 262px, -41px)
     display: inline-block
 .login:hover
     .login-text
@@ -84,8 +84,8 @@ form
     text-align: center
     @include text-settings(normal, normal, 20px, 40px, -0.1px)
     position: relative
-    top: 3px
-    left: 2px
+    top: 5px
+    left: 1px
 .number-container
     width: 100%
     height: 64px
@@ -125,7 +125,7 @@ form
     @include bg
     @include item-settings(12px, 8px, 6px, 0px)
 .Vector-num
-    @include item-settings(57px, 28px, 1px, -2px)
+    @include item-settings(57px, 28px, -1px, 0px)
     @include text-settings(normal, 500, 24px, 28px, 0.2px)
 .Vector-flag
     background-image: url(../../images/arab-flag.png)
@@ -138,10 +138,10 @@ form
 .plus18
     text-align: right
     color: white
-    @include text-settings(normal, normal, 14px, 16px, -0.1px)
-    @include item-settings(346px, 16px, -8px, -2px)
+    @include text-settings(normal, normal, 14px, 16px, 0.09px)
+    @include item-settings(346px, 16px, -1px, -1px)
 .checkbox 
-	position: absolute
+	position: relative
 	z-index: -1
 	opacity: 0
 .checkbox + label 
@@ -150,8 +150,8 @@ form
 .checkbox + label:before 
 	content: ''
 	position: absolute
-	top: -10px
-	left: 4px
+	top: -9px
+	left: -4px
 	width: 1em
 	height: 1em
 	border-radius: 4px
@@ -162,7 +162,7 @@ form
     @include bg
 .SendButtonBox
     @include item-settings(100%, 88px, 0px, 0px)
-    margin-top: 29px
+    margin-top: 31px
 .SendButton
     width: 100%
     height: 80px
@@ -172,6 +172,7 @@ form
 .SendButtonText
     display: inline-block
     color: white
-    @include text-settings(normal, bold, 36px, 76px, 1.35px)
+    @include text-settings(normal, normal, 36px, 76px, 1px)
+    font-family: "Noto Sans Arabic Bold", sans-serif 
     text-transform: uppercase
-    @include item-settings(240px, 76px, 2px, -5px)
+    @include item-settings(240px, 76px, -1px, -5px)

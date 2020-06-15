@@ -5,7 +5,7 @@ const SGroup155 = () => {
         <div>
             <section className="Group155">
                 <div className='Group155-container'>
-                    <div className='pattern'>
+                    <div className='pattern first-pattern'>
                         <p className='Frame-text'>
                             <bdo>VIP عضو</bdo>
                         </p>
@@ -17,7 +17,7 @@ const SGroup155 = () => {
                             </bdo>
                         </p>
                     </div>
-                    <div className='pattern'>
+                    <div className='pattern second-pattern'>
                         <p className='Frame-text'>
                             <bdo>مكب ابحرم</bdo>
                         </p>
@@ -29,7 +29,7 @@ const SGroup155 = () => {
                             </bdo>
                         </p>
                     </div>
-                    <div className='pattern'>
+                    <div className='pattern third-pattern'>
                         <p className='Frame-text'>
                             <bdo>تافورصملا</bdo>
                         </p>
@@ -41,7 +41,7 @@ const SGroup155 = () => {
                             </bdo>
                         </p>
                     </div>
-                    <div className='pattern'>
+                    <div className='pattern fours-pattern'>
                         <p className='Frame-text'>
                             <bdo>ةحيرص ةأفاكم</bdo>
                         </p>

@@ -37,11 +37,8 @@ const Footer = () => {
                     <div className="div-bottom"></div>
                     <div className="footer-text">
                         <p className="footer-text1">888 Holdings Plc, 601-701 Europort, GIBRALTAR. Telephone: +350-20049800. Email: Info@888holdingsplc.com Online Casino & Online Poker</p>
-                        <p className="footer-text2">888 is the best online Casino and Poker site in the world. Discover first-class online casino gambling at 888.com with more bonus giveaways, promotions, and events than at any other casino online! From the free casino download to the</p>
-                        <p className="footer-text3">amazing casino games, the entertainment never ends at 888casino. Experience the rush of Las Vegas online gambling from the comfort of your own home on ultra-realistic, industry-acclaimed 3D software. Choose from over 35 amazing </p>
-                        <p className="footer-text4">game options ! Challenge your skills with online BlackJack or Online Roulette in the largest casino online and enjoy great bonuses and best odds! Play Craps, Baccarat and at 888 Bingo or head over to the incredible array of Slot Machines;</p>
-                        <p className="footer-text5">Play casino fruit machine games in 888.com’s online casino, spin the reels in one of the many great games our casino offers! 888.com not only features classic online slots but progressives and Video Slots, as well! This is the time to start </p>
-                        <p className="footer-text6">playing and to enjoy the game at 888 casino.</p></div>
+                        <p className="footer-text2">888 is the best online Casino and Poker site in the world. Discover first-class online casino gambling at 888.com with more bonus giveaways, promotions, and events than at any other casino online! From the free casino download to the amazing casino games, the entertainment never ends at 888casino. Experience the rush of Las Vegas online gambling from the comfort of your own home on ultra-realistic, industry-acclaimed 3D software. Choose from over 35 amazing game options ! Challenge your skills with online BlackJack or Online Roulette in the largest casino online and enjoy great bonuses and best odds! Play Craps, Baccarat and at 888 Bingo or head over to the incredible array of Slot Machines; Play casino fruit machine games in 888.com’s online casino, spin the reels in one of the many great games our casino offers! 888.com not only features classic online slots but progressives and Video Slots, as well! This is the time to start playing and to enjoy the game at 888 casino.</p>
+                    </div>
                 </div>
             </footer>
         </div>

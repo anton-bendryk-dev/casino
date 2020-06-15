@@ -1,6 +1,6 @@
 @import "./reset/reset.css";
 @import "./font/font.css";
-// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap')
 @mixin flex-jc
     display: flex
     justify-content: center
@@ -58,11 +58,32 @@ body
     flex-direction: column
 .wrapper, main, header, footer, .Group155 
     width: 1920px
-
+header:after, main:after, .Group155:after
+        visibility: hidden
+        display: block
+        font-size: 0
+        content: " "
+        clear: both
+        height: 0
 @import "./LayoutStyle/header.sass";
 @import "./LayoutStyle/SGroup155.sass";
 @import "./LayoutStyle/main.sass";
 @import "./LayoutStyle/footer.sass";
+@media screen and (max-width: 1919px) and (min-width: 320px)
+    .wrapper, main, header, footer, .Group155, .Group155-container, .inline-wrapper, .inline-header,
+        width: 100%
+    .Group154Left
+        display: none
+    .Group154Right
+        display: none
+    .inline-header
+        @include flex-jc
+    .left-main
+        display: none
+    .right-main
+        display: none
+    .inline-main
+        width: 100%
 @import "./DeviceStyle/desktop.sass";
 @import "./DeviceStyle/tablet.sass";
 @import "./DeviceStyle/mobile.sass";

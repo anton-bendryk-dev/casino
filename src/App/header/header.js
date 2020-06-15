@@ -16,6 +16,7 @@ const Header = () => {
                         <div className='logo-container'>
                             <div className='logo'></div>
                         </div>
+                        <div className='rectangle157'></div>
                         <div className='form-container'>
                             <form>
                                 <p className='login'>

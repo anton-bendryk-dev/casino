@@ -2,7 +2,7 @@ header
     min-height: 666px
     background-image: url(../../images/bg.png)
     @include bg
-    display: flex
+    @include flex-jc
 .inline-header
     width: 70%
     display: flex
@@ -37,10 +37,12 @@ header
     @include item-settings(350px, 644px, -7px, 22px)
     background-image: url(../../images/girl_left1.png)
     @include bg
+    z-index: 2
 .rightGirl
     @include item-settings(402px, 633px, 16px, 33px)
     background-image: url(../../images/girl_right1.png)
     @include bg
+    z-index: 2
 .header-content-container
     width: 624px
     height: 100%
@@ -147,7 +149,7 @@ form
 .checkbox + label 
 	position: relative
 	cursor: pointer
-.checkbox + label:before 
+.checkbox + label:before
 	content: ''
 	position: absolute
 	top: -9px

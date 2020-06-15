@@ -4,7 +4,7 @@ main
     @include bg
     position: relative
     top: -11px
-    display: flex
+    @include flex-jc
 .inline-main
     width: 32%
     @include flex-ac
@@ -53,7 +53,6 @@ main
     -webkit-text-stroke: 2.8px  #FFFFFF
     position: relative
     top: -182px
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap')
 .block-text
     @include text-settings(normal, 800, 140px, 182px, 0px)
     font-family: 'Sarabun', sans-serif

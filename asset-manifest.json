@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gh-casino/static/css/main.793b085f.chunk.css",
+    "main.js": "/gh-casino/static/js/main.baf700b3.chunk.js",
+    "main.js.map": "/gh-casino/static/js/main.baf700b3.chunk.js.map",
+    "runtime-main.js": "/gh-casino/static/js/runtime-main.01d0db42.js",
+    "runtime-main.js.map": "/gh-casino/static/js/runtime-main.01d0db42.js.map",
+    "static/js/2.eac7276c.chunk.js": "/gh-casino/static/js/2.eac7276c.chunk.js",
+    "static/js/2.eac7276c.chunk.js.map": "/gh-casino/static/js/2.eac7276c.chunk.js.map",
+    "index.html": "/gh-casino/index.html",
+    "precache-manifest.12803ce05d907d296f0b395a3083540c.js": "/gh-casino/precache-manifest.12803ce05d907d296f0b395a3083540c.js",
+    "service-worker.js": "/gh-casino/service-worker.js",
+    "static/css/main.793b085f.chunk.css.map": "/gh-casino/static/css/main.793b085f.chunk.css.map",
+    "static/js/2.eac7276c.chunk.js.LICENSE.txt": "/gh-casino/static/js/2.eac7276c.chunk.js.LICENSE.txt",
+    "static/media/App.sass": "/gh-casino/static/media/registration.048d7028.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01d0db42.js",
+    "static/js/2.eac7276c.chunk.js",
+    "static/css/main.793b085f.chunk.css",
+    "static/js/main.baf700b3.chunk.js"
+  ]
+}
